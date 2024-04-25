@@ -1,11 +1,11 @@
-def first_and_last_two_characters(string):
+def first_and_last_two_characters(word):
 
-    if len(string) < 2:
+    if len(word) < 2:
 
         return ""
     else:
 
-        return string[:2] + string[-2:]
+        return word[:2] + word[-2:]
 
 
 
