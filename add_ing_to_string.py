@@ -1,11 +1,11 @@
-def add_string(string):
+def add_string(word):
 
-    if len(string) < 3:
-        return string
-    elif string[-3:] == 'ing':
-        return string + 'ly'
+    if len(word) < 3:
+        return word
+    elif word[-3:] == 'ing':
+        return word + 'ly'
     else:
-        return string + 'ing'
+        return word + 'ing'
 
 
    
