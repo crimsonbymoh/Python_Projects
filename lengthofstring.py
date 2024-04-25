@@ -1,6 +1,6 @@
-def length(string):
+def length(word):
 
-    return len(string)
+    return len(word)
 
 
 
