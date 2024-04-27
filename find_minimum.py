@@ -3,11 +3,11 @@ def minimum(numbers):
 
     minimum = numbers[0]
     
-    for numb in numbers:
+    for numb_min in numbers:
 
-        if numb < minimum:
+        if numb_min < minimum:
 
-            minimum = numb
+            minimum = numb_min
 
     return minimum
 

@@ -1,23 +1,17 @@
 
-def find_maximum(numbers):
-
-    numbers = [8, 4, 9, 2, 5, 7, 3]
+def maximum(numbers):
 
     maximum = numbers[0]
     
-    for numb in numbers:
+    for numb_max in numbers:
 
-        if numb > maximum:
+        if numb_max > maximum:
 
-            maximum = numb
+            maximum = numb_max
 
     return maximum
 
 
-
-print(f"Sample Data: {numbers}")
-
-print(f"Expected Output:",find_maximum(numbers))
 
 
 
